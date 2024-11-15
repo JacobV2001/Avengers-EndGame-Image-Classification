@@ -88,16 +88,20 @@ SVM Test Accuracy: 0.8923076923076924
 
 ## How to Use
 
+### Follow Steps Below Or Refer & Refer To image_documentation Folder As Needed
+
 ### Step 1: Clone the Repository
 
 Clone the repository to your local machine:
-`git clone https://github.com/your-username/endgame-image-classifier.git
+
+git clone https://github.com/your-username/endgame-image-classifier.git
 cd endgame-image-classifier
 
 
 ### Step 2: Install Dependencies
 
 Install the required libraries by running:
+
 `install -r requirements.txt
 
 
@@ -105,6 +109,7 @@ Install the required libraries by running:
 ### Step 3: Start the Local Server
 
 To run the application locally, use the following command:
+
 `python server/server.py
 
 
