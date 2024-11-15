@@ -94,8 +94,9 @@ SVM Test Accuracy: 0.8923076923076924
 
 Clone the repository to your local machine:
 
-git clone https://github.com/your-username/endgame-image-classifier.git
-cd endgame-image-classifier
+`git clone https://github.com/your-username/endgame-image-classifier.git
+
+`cd endgame-image-classifier
 
 
 ### Step 2: Install Dependencies
