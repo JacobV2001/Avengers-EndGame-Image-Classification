@@ -1,0 +1,9 @@
+opencv-python
+pandas
+joblib
+scikit-learn
+pywt
+selenium
+beautifulsoup4
+requests
+flask
