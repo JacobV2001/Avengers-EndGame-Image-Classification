@@ -22,7 +22,7 @@ driver = webdriver.Chrome()
 driver.implicitly_wait(10)
 
 # list of search topics
-search_strings = ["thanos", "iron man", "captain america", "spiderman", "thor", "doctor strange", "scarlet witch", "star-lord", "gamora", "loki"]
+search_strings = ["thanos", "iron man", "captain america", "spiderman", "thor", "doctor strange", "scarlet witch", "gamora", "loki"]
 
 
 for search in search_strings:
