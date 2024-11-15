@@ -88,7 +88,7 @@ SVM Test Accuracy: 0.8923076923076924
 
 ## How to Use
 
-### Follow Steps Below Or Refer & Refer To image_documentation Folder As Needed
+### Follow Steps Below & Refer To image_documentation Folder As Needed
 
 ### Step 1: Clone the Repository
 
