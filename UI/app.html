@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endgame Lookalike Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+    <h1 align="center">Endgame Lookalike Classifier</h1>
+
+    <div class="container">
+        <div class="row">
+            <!-- ONE -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/captain_america.jpg" alt="Captain America">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Captain America</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- TWO -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/doctor_strange.jpg" alt="Doctor Strange">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Doctor Strange</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- THREE -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/gamora.jpg" alt="Gamora">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Gamora</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- FOUR -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/iron_man.jpg" alt="Iron Man">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Iron Man</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- FIVE -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/loki.jpg" alt="Loki">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Loki</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- SIX -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/scarlet_witch.jpg" alt="Scarlet Witch">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Scarlet Witch</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- SEVEN -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/spiderman.jpg" alt="Spiderman">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Spiderman</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- EIGHT -->
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card border-0 text-center">
+                    <div class="rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/thor.jpg" alt="Thor">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Thor</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- File Upload -->
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div class="dz-message needsclick">
+                                <img src="./images/upload.png" width="50vw" height="50vw"><br>
+                                <span class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 mx-auto">
+                        <button id="submitBtn" type="button" class="btn btn-success">Classify</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8 error" id="error" >
+                <p>Can't classify image. Classifier was not able to detect face and two eyes properly</p>    
+            </div>
+
+            <div class="col-sm-4" id="resultHolder">
+            </div>
+            <div class="col-sm-4" id="divClassTable">
+                <div id="matchedCharacter"></div>
+                <table id="classTable">
+                        <tr>
+                            <th>Player</th>
+                            <th>Probability Score</th>
+                        </tr>
+                        <!-- Scores for each player will be inserted here dynamically -->
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="loadingSpinner" style="display:none;">
+        <i class="fa fa-spinner fa-spin" style="font-size: 50px; color: #4CAF50;"></i> Processing...
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./app.js"></script>
+</html>
