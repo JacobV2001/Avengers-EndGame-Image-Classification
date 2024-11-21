@@ -30,10 +30,15 @@ This project serves as both a fun lookalike tool and a learning platform for ima
 ## Skills Demonstrated
 
 - **Machine Learning & Model Development**: Trained a **Support Vector Machine (SVM)** for facial feature-based classification, achieving **89% accuracy** on the test set.
+
 - **Image Processing & Feature Extraction**: Used **OpenCV** for facial detection and landmark extraction, improving model accuracy through enhanced feature representation.
+
 - **Data Collection & Automation**: Leveraged **Selenium** for automated web scraping, gathering images of Avengers characters to build a high-quality training dataset.
+
 - **Model Optimization**: Applied **grid search** and **cross-validation** for hyperparameter tuning, boosting model performance and ensuring robustness.
+
 - **End-to-End Deployment**: Deployed the model and web interface using **Flask**, enabling seamless user interaction through a local server.
+
 - **Problem-Solving & Continuous Learning**: Addressed challenges like imperfect datasets and optimization, while actively improving the project through new tools and algorithms.
 
 
