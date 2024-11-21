@@ -28,13 +28,14 @@ This project serves as both a fun lookalike tool and a learning platform for ima
 
 
 ## Skills Demonstrated
-- **Machine Learning & Image Classification**: Gained experience with training and evaluating machine learning models, particularly in the context of image classification using Support Vector Machines (SVM).
-- **Image Processing**: Applied OpenCV to preprocess images for facial detection and feature extraction using Haar Cascade classifiers.
-- **Data Collection & Web Scraping**: Automated the collection of images using Selenium for web scraping, creating a custom dataset for training the model.
-- **Model Tuning & Hyperparameter Optimization**: Used techniques like grid search to optimize hyperparameters and improve model performance.
-- **Web Development**: Developed a local web interface using HTML, CSS, and JavaScript for user interaction with the model, making the application more accessible.
-- **Version Control**: Utilized Git for version control, ensuring efficient collaboration and project management throughout the development of the project.
-- **Deployment & Hosting**: Gained insight into local server deployment using Flask and Python to create an interactive web-based application.
+
+- **Machine Learning & Model Development**: Implemented, trained, and evaluated a **Support Vector Machine (SVM)** model for facial feature-based image classification, achieving **89% accuracy** on the test dataset. Gained hands-on experience in building and deploying machine learning solutions, focusing on real-world applications and delivering high-quality models.
+- **Advanced Image Processing & Feature Extraction**: Utilized **OpenCV** for facial detection and advanced feature extraction techniques using **Haar Cascade classifiers** and facial landmarks, improving model accuracy by capturing subtle facial features for better classification results.
+- **Automated Data Collection & Web Scraping**: Demonstrated proficiency in **web scraping** and data automation using **Selenium**, efficiently gathering and processing images of Avengers: Endgame characters to create a high-quality, labeled dataset for training, showcasing strong skills in data acquisition and cleaning.
+- **Model Tuning & Optimization**: Applied **grid search** and **cross-validation** techniques for hyperparameter tuning, optimizing the SVM model and significantly improving its performance. Ensured the solution was robust and scalable through data-driven decision-making and performance evaluation.
+- **End-to-End Deployment & Hosting**: Deployed the machine learning model and web interface using **Flask**, integrating the backend model with the front-end interface. Gained experience in **end-to-end deployment**, providing users with seamless interaction through a local server.
+- **Problem-Solving & Continuous Learning**: Tackled challenges such as imperfect datasets and model optimization. Maintained a proactive approach to learning new tools and algorithms, continuously improving the project’s performance and scalability.
+
 
 ## Required Python libraries:
 - `scikit-learn` (for machine learning models)
