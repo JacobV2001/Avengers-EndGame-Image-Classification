@@ -1,5 +1,17 @@
 # Endgame Image Classifier
 
+## Table of Contents
+- [Overview](#overview)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Features](#features)
+- [Required Python Libraries](#required-python-libraries)
+- [Dataset and Image Scraping](#dataset-and-image-scraping)
+- [How It Works](#how-it-works)
+- [Performance](#performance)
+- [How to Use](#how-to-use)
+- [Notes](#notes)
+- [Credits](#credits)
+
 ## Overview
 
 The **Endgame Image Classifier** is a machine learning project that classifies images of people based on their facial features and compares them to characters from the movie *Avengers: Endgame*. The goal is to determine which character an individual resembles the most using facial recognition and image classification techniques.
@@ -15,7 +27,16 @@ This project serves as both a fun lookalike tool and a learning platform for ima
 - **Web Scrapping Extraction**: Uses Selenlium to automade downloading of endgame character images.
 
 
-Required Python libraries:
+## Skills Demonstrated
+- **Machine Learning & Image Classification**: Gained experience with training and evaluating machine learning models, particularly in the context of image classification using Support Vector Machines (SVM).
+- **Image Processing**: Applied OpenCV to preprocess images for facial detection and feature extraction using Haar Cascade classifiers.
+- **Data Collection & Web Scraping**: Automated the collection of images using Selenium for web scraping, creating a custom dataset for training the model.
+- **Model Tuning & Hyperparameter Optimization**: Used techniques like grid search to optimize hyperparameters and improve model performance.
+- **Web Development**: Developed a local web interface using HTML, CSS, and JavaScript for user interaction with the model, making the application more accessible.
+- **Version Control**: Utilized Git for version control, ensuring efficient collaboration and project management throughout the development of the project.
+- **Deployment & Hosting**: Gained insight into local server deployment using Flask and Python to create an interactive web-based application.
+
+## Required Python libraries:
 - `scikit-learn` (for machine learning models)
 - `opencv-python` (for image processing)
 - `numpy` (for numerical operations)
