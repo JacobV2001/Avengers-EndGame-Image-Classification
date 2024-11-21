@@ -29,12 +29,13 @@ This project serves as both a fun lookalike tool and a learning platform for ima
 
 ## Skills Demonstrated
 
-- **Machine Learning & Model Development**: Implemented, trained, and evaluated a **Support Vector Machine (SVM)** model for facial feature-based image classification, achieving **89% accuracy** on the test dataset. Gained hands-on experience in building and deploying machine learning solutions, focusing on real-world applications and delivering high-quality models.
-- **Advanced Image Processing & Feature Extraction**: Utilized **OpenCV** for facial detection and advanced feature extraction techniques using **Haar Cascade classifiers** and facial landmarks, improving model accuracy by capturing subtle facial features for better classification results.
-- **Automated Data Collection & Web Scraping**: Demonstrated proficiency in **web scraping** and data automation using **Selenium**, efficiently gathering and processing images of Avengers: Endgame characters to create a high-quality, labeled dataset for training, showcasing strong skills in data acquisition and cleaning.
-- **Model Tuning & Optimization**: Applied **grid search** and **cross-validation** techniques for hyperparameter tuning, optimizing the SVM model and significantly improving its performance. Ensured the solution was robust and scalable through data-driven decision-making and performance evaluation.
-- **End-to-End Deployment & Hosting**: Deployed the machine learning model and web interface using **Flask**, integrating the backend model with the front-end interface. Gained experience in **end-to-end deployment**, providing users with seamless interaction through a local server.
-- **Problem-Solving & Continuous Learning**: Tackled challenges such as imperfect datasets and model optimization. Maintained a proactive approach to learning new tools and algorithms, continuously improving the project’s performance and scalability.
+- **Machine Learning & Model Development**: Trained a **Support Vector Machine (SVM)** for facial feature-based classification, achieving **89% accuracy** on the test set.
+- **Image Processing & Feature Extraction**: Used **OpenCV** for facial detection and landmark extraction, improving model accuracy through enhanced feature representation.
+- **Data Collection & Automation**: Leveraged **Selenium** for automated web scraping, gathering images of Avengers characters to build a high-quality training dataset.
+- **Model Optimization**: Applied **grid search** and **cross-validation** for hyperparameter tuning, boosting model performance and ensuring robustness.
+- **End-to-End Deployment**: Deployed the model and web interface using **Flask**, enabling seamless user interaction through a local server.
+- **Problem-Solving & Continuous Learning**: Addressed challenges like imperfect datasets and optimization, while actively improving the project through new tools and algorithms.
+
 
 
 ## Required Python libraries:
