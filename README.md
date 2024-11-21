@@ -2,8 +2,8 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Skills Demonstrated](#skills-demonstrated)
 - [Features](#features)
+- [Skills Demonstrated](#skills-demonstrated)
 - [Required Python Libraries](#required-python-libraries)
 - [Dataset and Image Scraping](#dataset-and-image-scraping)
 - [How It Works](#how-it-works)
